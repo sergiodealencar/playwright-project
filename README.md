@@ -44,60 +44,27 @@ pw-practice-app/
 
 ## How to Run
 
-Follow these steps to install, configure, and execute the Playwright tests:
+## 🚀 How to Run
 
-### 1. Clone the repository
+### 🔧 Pre-requisites
+Make sure you have the following installed on your computer:
+- **[Node.js](https://nodejs.org)**
+- **[Visual Studio Code (VS Code)](https://code.visualstudio.com)**
+- **[Git](https://git-scm.com)** and a **GitHub account**
+
+---
+
+### 🪜 Steps
+
+#### 1. Clone the test application from GitHub
+Open the repository below:  
+👉 [https://github.com/sergiodealencar/pw-practice-app.git](https://github.com/sergiodealencar/pw-practice-app.git)
+
+Click on **“Code” → “Copy URL to code”**
+
+---
+
+#### 2. Clone the repository using Git
+Open your terminal in a folder of your choice and type:
 ```bash
 git clone https://github.com/sergiodealencar/pw-practice-app.git
-cd pw-practice-app
-```
-
-### 2. Install dependencies
-
-Make sure you have Node.js (v18 or higher) installed, then run:
-```bash
-npm install
-```
-
-### 3. Install Playwright browsers
-
-Playwright requires browser binaries for testing:
-```bash
-npx playwright install
-```
-
-### 4. Start the web application (if testing a local app)
-
-If your app runs locally (e.g., Angular dashboard on port 4200), start it in a separate terminal:
-```bash
-npm start
-```
-
-### 5. Run all tests
-
-Execute all Playwright tests:
-```bash
-npx playwright test
-```
-
-### 6. Run a specific test file
-
-Run only one spec file (for example uiComponents.spec.ts):
-```bash
-npx playwright test tests/uiComponents.spec.ts
-```
-
-### 7. Run tests in headed mode (visible browser)
-
-Useful for debugging:
-```bash
-npx playwright test --headed
-```
-
-### 8. View the HTML report
-
-After tests finish running, open the Playwright HTML report:
-```bash
-npx playwright show-report
-```
-
