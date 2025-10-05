@@ -41,9 +41,12 @@ pw-practice-app/
 └── tslint.json
 ```
 
+
 ## How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/sergiodealencar/pw-practice-app.git
-   cd pw-practice-app
+Follow these steps to install, configure, and execute the Playwright tests:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/sergiodealencar/pw-practice-app.git
+cd pw-practice-app
