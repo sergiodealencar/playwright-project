@@ -1,10 +1,13 @@
-# Playwright Practice App
+# Playwright E2E Automation Project – Angular IoT Dashboard
 
-This project was created to demonstrate **Playwright**, **Page Object Model (POM)**, and **End-to-End automation** skills.
+This project demonstrates the implementation of end-to-end (E2E) automated testing using Playwright and TypeScript for a responsive Angular IoT Dashboard web application.
+The automation suite validates key user interactions, including navigation, form submissions, and UI component verification, ensuring application reliability across multiple browsers.
+
+The framework follows the Page Object Model (POM) design pattern to promote scalability, readability, and reusability. It includes a complete configuration for running tests, generating HTML reports, and capturing screenshots and videos on failures, reflecting modern best practices in web test automation.
 
 ## Objective
 
-Automate functional tests of a local Angular dashboard (example: IoT Dashboard) using **Playwright**.
+The project serves as a demonstration of a professional-grade E2E automation framework using Playwright, showcasing best practices in test architecture, configuration, and maintainability for modern web applications.
 
 ---
 
