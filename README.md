@@ -68,3 +68,32 @@ Click on **“Code” → “Copy URL to code”**
 Open your terminal in a folder of your choice and type:
 ```bash
 git clone https://github.com/sergiodealencar/pw-practice-app.git
+```
+
+#### 3. Open the project in VS Code and install dependencies
+
+Open the pw-practice-app folder in VS Code, then open the integrated terminal and run:
+```bash
+npm install --force
+npm install -D @playwright/test --force
+npm start
+```
+
+Once the app starts, check in your browser that it’s running properly at:
+👉 http://localhost:4200
+
+#### 4. Run Playwright tests
+
+To execute all tests in headless mode:
+```bash
+npx playwright test
+```
+
+#### 5. Run tests in the graphical UI mode
+
+To use Playwright’s graphical test runner (visual mode):
+```bash
+npx playwright test --ui
+```
+
+
