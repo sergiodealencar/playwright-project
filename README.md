@@ -8,6 +8,39 @@ Automate functional tests of a local Angular dashboard (example: IoT Dashboard) 
 
 ---
 
+## Repository Structure
+
+```
+pw-practice-app/
+│
+├── .vscode/
+│
+├── page-objects/
+│   ├── formLayoutsPage.ts
+│   ├── navigationPage.ts
+│   ├── pageManager.ts
+│
+├── src/
+│
+├── tests/
+│   ├── uiComponents.spec.ts
+│   ├── usePageObjects.spec.ts
+│
+├── .browserslistrc
+├── .editorconfig
+├── .gitignore
+├── .prettierignore
+├── .stylelintrc.json
+├── LICENSE
+├── README.md
+├── angular.json
+├── package-lock.json
+├── package.json
+├── playwright.config.ts
+├── tsconfig.json
+└── tslint.json
+```
+
 ## How to Run
 
 1. Clone this repository:
